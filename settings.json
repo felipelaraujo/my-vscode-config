@@ -1,0 +1,45 @@
+{
+  // FONT
+  "editor.fontFamily": "Nova",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 19,
+  // CURSOR
+  "terminal.integrated.cursorStyle": "line",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
+  // LANGUAGES & FORMATTING
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true,
+    "source.organizeImports": true,
+    "source.fixAll.stylelint": true
+  },
+  // VSCODE
+  "editor.trimAutoWhitespace": true,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "breadcrumbs.enabled": true,
+  "editor.renderLineHighlight": "gutter",
+  "explorer.compactFolders": false,
+  "explorer.autoReveal": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.enablePreview": false,
+  "workbench.colorTheme": "Dracula Refined",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "gitlens.codeLens.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
