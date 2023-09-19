@@ -1,4 +1,10 @@
 {
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontSize": 18,
+  // "editor.fontWeight": "400",
+  // "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.fontLigatures": "true",
+  "editor.lineHeight": 28,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     // "source.fixAll.eslint": true,
@@ -10,18 +16,28 @@
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.cursorStyle": "line",
-  "editor.fontFamily": "Consolas",
-  "editor.fontSize": 20,
   "workbench.tree.indent": 20,
   "explorer.compactFolders": false,
+  "update.mode": "start",
+  "editor.semanticHighlighting.enabled": "configuredByTheme",
   "explorer.confirmDragAndDrop": false,
   "editor.minimap.enabled": false,
   "explorer.confirmDelete": false,
   "security.workspace.trust.untrustedFiles": "open",
+  "editor.renderLineHighlight": "all",
+  "editor.parameterHints.enabled": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
   "git.openRepositoryInParentFolders": "never",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "symbols.hidesExplorerArrows": false,
-  "workbench.iconTheme": "symbols",
-  "workbench.productIconTheme": "fluent-icons"
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "console-ninja.featureSet": "Pro",
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true
+  },
+  "terminal.integrated.env.windows": {},
+  "workbench.colorTheme": "Dracula"
 }
