@@ -1,43 +1,40 @@
 {
-  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontFamily": "Iosevka",
   "editor.fontSize": 18,
-  // "editor.fontWeight": "400",
-  // "editor.fontLigatures": "'calt', 'ss01'",
-  "editor.fontLigatures": "true",
   "editor.lineHeight": 28,
+  "editor.letterSpacing": 1,
+  "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    // "source.fixAll.eslint": true,
+    // "source.fixAll.eslint": true
     "source.organizeImports": true
   },
+  "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.formatOnSave": true,
   "editor.wordWrap": "on",
   "editor.tabSize": 2,
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.cursorStyle": "line",
   "workbench.tree.indent": 20,
   "explorer.compactFolders": false,
   "update.mode": "start",
-  "editor.semanticHighlighting.enabled": "configuredByTheme",
   "explorer.confirmDragAndDrop": false,
   "editor.minimap.enabled": false,
   "explorer.confirmDelete": false,
   "security.workspace.trust.untrustedFiles": "open",
   "editor.renderLineHighlight": "all",
-  "editor.parameterHints.enabled": false,
-  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.renderWhitespace": "boundary",
   "git.openRepositoryInParentFolders": "never",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "symbols.hidesExplorerArrows": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.productIconTheme": "material-product-icons",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "console-ninja.featureSet": "Pro",
-  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
-    "live-server-extension": true
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
   },
-  "terminal.integrated.env.windows": {},
+  "cSpell.language": "en,pt,pt-BR",
+  "editor.smoothScrolling": true,
+  "liveServer.settings.donotShowInfoMsg": true,
   "workbench.colorTheme": "Dracula"
 }
