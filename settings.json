@@ -1,12 +1,12 @@
 {
-  "editor.fontFamily": "Iosevka",
-  "editor.fontSize": 18,
-  "editor.lineHeight": 28,
-  "editor.letterSpacing": 1,
+  "editor.fontFamily": "Consolas",
+  "editor.cursorWidth": 3,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 27,
   "editor.fontLigatures": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    // "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
     "source.organizeImports": true
   },
   "editor.acceptSuggestionOnCommitCharacter": false,
@@ -16,7 +16,6 @@
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.cursorStyle": "line",
-  "workbench.tree.indent": 20,
   "explorer.compactFolders": false,
   "update.mode": "start",
   "explorer.confirmDragAndDrop": false,
@@ -28,7 +27,6 @@
   "git.openRepositoryInParentFolders": "never",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -36,5 +34,7 @@
   "cSpell.language": "en,pt,pt-BR",
   "editor.smoothScrolling": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Dracula"
+  "workbench.colorTheme": "Dracula",
+  "workbench.tree.indent": 20,
+  "workbench.iconTheme": "material-icon-theme"
 }
