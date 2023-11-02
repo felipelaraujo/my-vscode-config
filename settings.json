@@ -1,12 +1,12 @@
 {
-  "editor.fontFamily": "Consolas",
+  "editor.fontFamily": "Fira Code, 'Courier New', monospace",
+  "editor.fontSize": 15.5,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Cobalt2",
   "editor.cursorWidth": 3,
-  "editor.fontSize": 17,
-  "editor.lineHeight": 27,
-  "editor.fontLigatures": true,
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    // "source.fixAll.eslint": true,
     "source.organizeImports": true
   },
   "editor.acceptSuggestionOnCommitCharacter": false,
@@ -27,14 +27,11 @@
   "git.openRepositoryInParentFolders": "never",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "cSpell.language": "en,pt,pt-BR",
   "editor.smoothScrolling": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Dracula",
   "workbench.tree.indent": 20,
-  "workbench.iconTheme": "material-icon-theme"
+  "vsicons.dontShowNewVersionMessage": true
 }
