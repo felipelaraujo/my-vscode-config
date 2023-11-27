@@ -1,37 +1,19 @@
 {
-  "editor.fontFamily": "Fira Code, 'Courier New', monospace",
-  "editor.fontSize": 15.5,
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Cobalt2",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Overpass Mono, 'Courier New', monospace",
+  "editor.fontSize": 16,
   "editor.cursorWidth": 3,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    // "source.fixAll.eslint": true,
-    "source.organizeImports": true
-  },
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.formatOnSave": true,
-  "editor.wordWrap": "on",
-  "editor.tabSize": 2,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
-  "terminal.integrated.cursorStyle": "line",
-  "explorer.compactFolders": false,
-  "update.mode": "start",
-  "explorer.confirmDragAndDrop": false,
-  "editor.minimap.enabled": false,
-  "explorer.confirmDelete": false,
-  "security.workspace.trust.untrustedFiles": "open",
   "editor.renderLineHighlight": "all",
-  "editor.renderWhitespace": "boundary",
-  "git.openRepositoryInParentFolders": "never",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
   "editor.smoothScrolling": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.tree.indent": 20,
-  "vsicons.dontShowNewVersionMessage": true
+  "update.mode": "start",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Gruvbox Dark Hard"
 }
